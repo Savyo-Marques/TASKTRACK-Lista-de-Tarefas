@@ -1,6 +1,6 @@
 # TASKTRACK - Aplicação de Lista de Tarefas
 
-![Imagem da Aplicação](imagem-da-aplicacao.png)
+![Captura de tela 2023-09-19 125406](https://github.com/Savyo-Marques/TASKTRACK-Lista-de-Tarefas/assets/129305960/ad2d4e61-b047-400e-b213-47615addc8df)
 
 ## Descrição
 
@@ -14,8 +14,7 @@ O TASKTRACK é uma ferramenta simples e eficiente para o gerenciamento de tarefa
 
 ## Capturas de Tela
 
-![Captura de Tela 1](captura-de-tela-1.png)
-![Captura de Tela 2](captura-de-tela-2.png)
+![Captura de tela 2023-09-19 125500](https://github.com/Savyo-Marques/TASKTRACK-Lista-de-Tarefas/assets/129305960/9f39a11b-c0f0-483e-884e-f684c1524130)
 
 ## Instalação
 
