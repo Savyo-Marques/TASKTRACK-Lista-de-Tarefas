@@ -1,0 +1,128 @@
+.bloco-principal{
+    position: relative;
+    display: flex;
+    background: linear-gradient(5deg, #9cc9ed, #b4ecb4fa);  
+    padding: 5vh;
+    height: 55vh;
+    width: 155vh;
+    margin-top: 19vh;
+    margin-right: 80vh;
+    z-index: 1;
+    border-radius: 5vh;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px rgb(232, 223, 223);
+}
+
+.bloco-logo{
+    position: absolute;
+    height:280px;
+    overflow: hidden;
+    top: 1%;
+}
+
+.logo{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    margin-left: 68vh;
+    max-width: 350px;
+}
+
+.bloco-logo:hover .logo{
+    transform: scale(1.1);
+}
+
+.titulo{
+    color:  rgb(251, 251, 251);
+    
+    text-align: center;
+    margin-left: 19vh;
+    font-size: 8vh;
+    margin-top: 36vh;
+}
+
+.wrap {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.botao {
+    min-width: 30vh;
+    min-height: 8vh;
+    margin-left: 18vh;
+    margin-top: 2vh;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(50deg, rgb(119, 110, 247) 5%, rgb(145, 219, 236) 100%);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 2px 2px 15px 5px rgba(240, 233, 225, 0.311);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    padding: 10px;
+  }
+  
+botao::before {
+    content: '';
+    border-radius: 100px;
+    min-width: calc(200px + 30px);
+    min-height: calc(60px + 12px);
+    border: 3px solid #eeebe6;
+    box-shadow: 0 0 60px rgb(220, 229, 227);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+  
+.botao:hover, .but:focus {
+    color: #000000;
+    transform: translateY(-6px);
+}
+  
+.botao:hover::before, but:focus::before {
+    opacity: 1;
+}
+  
+.botao::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 3px solid rgb(28, 39, 183);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+  
+.botao:hover::after, but:focus::after {
+    animation: none;
+    display: none;
+}
+  
+@keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+}
+
+
